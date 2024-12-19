@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6E72FC 0%, #AD1DEB 100%);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px; /* Ensures there is some padding on all sides */
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px; /* Space above the buttons */
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: bold; /* Makes the text bold */
+    margin: 20px 0;
+    background: linear-gradient(135deg, #FFAF7B, #D76D77, #3A1C71); /* Gradient background for the quote */
+    color: white;
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Button styling remains the same */
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #FF7A59;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #FF5733;
+}
+
+/* Add padding for smaller devices */
+@media (max-width: 768px) {
+    body {
+        padding: 20px; /* Adds padding around the content on mobile */
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        padding: 20px; /* Adds extra padding to make the content more readable on smaller screens */
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
