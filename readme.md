@@ -19,9 +19,3 @@ This Flask application serves as a **Random Quote Generator**. It fetches a rand
 ## About App
 
 This Flask application dynamically generates an image with a quote. It utilizes the Pillow library to draw text on an image canvas, allowing for customizable font sizes and colors. The quote is fetched from an external API, ensuring fresh content. Users can download the generated image directly from the webpage. The application’s design is responsive, adapting to different screen sizes. By using HTML and CSS, it offers an aesthetically pleasing interface, enhancing user experience and engagement.
-
-## Explanation of Technologies Used
-
-- **Flask**: A micro web framework for Python that allows for quick and easy web application development.
-- **Pillow**: An imaging library that provides tools for opening, manipulating, and saving image files.
-- **HTML/CSS**: Standard technologies for building web pages, allowing for structured content and styling.
